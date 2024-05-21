@@ -1,0 +1,22 @@
+[project]
+name = "Neuromorphic-Portfolio"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "IraitzM", email = "iraitzm@gmail.com"},
+]
+dependencies = [
+    "lava-optimization>=0.4.0",
+]
+requires-python = ">3.9, <3.11"
+readme = "README.md"
+license = {text = ""}
+
+
+[tool.pdm]
+distribution = false
+
+[tool.pdm.dev-dependencies]
+develop = [
+    "ipykernel>=6.29.4",
+]
