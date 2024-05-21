@@ -5,7 +5,7 @@
 groups = ["default", "develop"]
 strategy = ["cross_platform", "inherit_metadata"]
 lock_version = "4.4.1"
-content_hash = "sha256:6b0783e1013c596577e9b012721168f945e4e1e955eba09f028f3cd4fa09252f"
+content_hash = "sha256:2509fbd04af6566eeb5b994909b358eb4e031171a180966361f02aa26c3567f4"
 
 [[package]]
 name = "appnope"
@@ -992,6 +992,20 @@ files = [
     {file = "pyzmq-26.0.3-pp39-pypy39_pp73-manylinux_2_28_x86_64.whl", hash = "sha256:4adfbb5451196842a88fda3612e2c0414134874bffb1c2ce83ab4242ec9e027d"},
     {file = "pyzmq-26.0.3-pp39-pypy39_pp73-win_amd64.whl", hash = "sha256:3516119f4f9b8671083a70b6afaa0a070f5683e431ab3dc26e9215620d7ca1ad"},
     {file = "pyzmq-26.0.3.tar.gz", hash = "sha256:dba7d9f2e047dfa2bca3b01f4f84aa5246725203d6284e3790f2ca15fba6b40a"},
+]
+
+[[package]]
+name = "qubogen"
+version = "0.1.1"
+requires_python = ">=3.7"
+summary = "QUBO matrix generator on major combinatorial optimization problems written in Python"
+groups = ["default"]
+dependencies = [
+    "networkx>=2.2",
+]
+files = [
+    {file = "qubogen-0.1.1-py3-none-any.whl", hash = "sha256:f5a7ce03374c7e75977cf88c5e7bc6f0da4a4998ed7989893869728ec0e413fe"},
+    {file = "qubogen-0.1.1.tar.gz", hash = "sha256:e54f4b454ded6deb292a3168ce0790bdabecc2fc464e7a225a585504fd87aa75"},
 ]
 
 [[package]]
